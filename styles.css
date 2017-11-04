@@ -1,0 +1,71 @@
+body, html {
+    font-family: 'Raleway', sans-serif;
+    margin: 5px;
+    padding: 0;
+    max-width: 100%;
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+figcaption {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.name_title {
+    text-align: right;
+}
+
+.line_seperator {
+    height: 5px;
+    display: block;
+    border: 0px;
+    background: #7d97ad;
+}
+
+.projects_title {
+    margin-bottom: 0;
+}
+
+.dark_green {
+    color:#7d97ad;
+}
+
+.logo_box {
+    display : flex;
+    align-items : center;
+}
+
+.header_logo {
+    height: 50px;
+}
+
+.porfolio_title {
+    text-align: center;
+}
+
+.container {
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.project_link {
+    font-size: 0.8em;
+    color:#2d3c49;
+}
+
+.boxed {
+    box-sizing: border-box;
+}
+
+.header {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+}
