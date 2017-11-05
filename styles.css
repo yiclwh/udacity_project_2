@@ -15,35 +15,40 @@ figcaption {
     margin: 0 auto;
 }
 
-.name_title {
-    text-align: right;
+h1 {
+    font-size: 3em;
 }
 
-.line_seperator {
+.name-title {
+    text-align: right;
+    font-weight: bold;
+}
+
+.line-seperator {
     height: 5px;
     display: block;
     border: 0px;
     background: #7d97ad;
 }
 
-.projects_title {
+.projects-title {
     margin-bottom: 0;
 }
 
-.dark_green {
+.dark-green {
     color:#7d97ad;
 }
 
-.logo_box {
+.logo-box {
     display : flex;
     align-items : center;
 }
 
-.header_logo {
+.header-logo {
     height: 50px;
 }
 
-.porfolio_title {
+.porfolio-title {
     text-align: center;
 }
 
@@ -55,7 +60,7 @@ figcaption {
     align-items: flex-end;
 }
 
-.project_link {
+.project-link {
     font-size: 0.8em;
     color:#2d3c49;
 }
